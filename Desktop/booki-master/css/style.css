@@ -464,6 +464,7 @@ footer {
 
 /****** Media queries ***********/
 
+
 /* Large/Medium devices (tablets, desktop less/equal than 1309px) */
 
 @media (max-width: 1309px){
@@ -506,6 +507,11 @@ footer {
 /* Medium devices (tablets, less/equal than 1309px) */
 @media (max-width: 1024px) {
 
+
+    .hebergements-and-populaires {
+        gap: 50px;
+    }
+
     /****** Body Filter Bar ***********/
 
     .filter-bar {
@@ -534,6 +540,10 @@ footer {
 
 
     /****** Hebergements ***********/
+
+    .hebergements{
+        margin-bottom: 0%;
+    }
 
     .hebergements-cards .card-title {
         font-size: clamp(10px, 1.5vw, 14px);
